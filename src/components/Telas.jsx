@@ -1,12 +1,18 @@
+import Header from "./Header";
 import Tela from "./Tela";
 
 
 const Telas = (props) => {
     return (
-        <main id="main">
-            
-            <Tela telaData={props.telasData.telas} />
-        </main>
+        <>
+            <header>
+                <Header />
+            </header>
+            <main id="main">
+                <Tela telaData={props.telasData.telas} />
+            </main>
+        </>
+
     )
 }
 

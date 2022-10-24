@@ -1,4 +1,4 @@
-import '../Css/index.css';
+
 import wave from "../img/wave.png";
 import avatar from "../img/avatar.svg";
 import { Link } from "react-router-dom"
