@@ -59,12 +59,6 @@ const data = {
             "name": "Tarak-596",
             "price": "361,000",
             "image": "https://res.cloudinary.com/dbvltbvea/image/upload/v1666583159/2_iltfph.jpg"
-          },
-          {
-            "id": 11,
-            "name": "Tarak-597",
-            "price": "374,000",
-            "image": "https://res.cloudinary.com/dbvltbvea/image/upload/v1666583159/1_ugdkjs.jpg"
           }
       ]
 }
