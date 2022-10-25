@@ -1,0 +1,25 @@
+
+
+#main-descripcion > #imagen{
+    /* border: 1px solid black;  */
+    width: 50%;
+    text-align: end;
+}
+
+#main-descripcion > #descripcion{
+    /* border: 1px solid black;  */
+    width: 50%;
+    text-align: start;
+    padding-top: 5rem;
+}
+
+#main-descripcion > #descripcion > .btn > #comprar {
+    width: 170px;
+    border-radius: 20px;
+}
+
+#main-descripcion > #descripcion > .input-div > .div > #cantidad {
+    border: 1px solid black;
+    width: 200px;
+    border-radius: 20px;
+}
