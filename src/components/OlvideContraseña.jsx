@@ -31,7 +31,10 @@ function OlvideContraseña() {
                 <input type="text" placeholder="Correo" className="input" />
               </div>
             </div>
+            <div className="botones">
             <Link to="/"><input type="button" className="btn" defaultValue="Recuperar" /></Link>
+            </div>
+            
           </form>
         </div>
       </div>

@@ -5,9 +5,7 @@ import Tela from "./Tela";
 const Telas = (props) => {
     return (
         <>
-            <header>
-                <Header />
-            </header>
+            <Header />
             <main id="main">
                 <Tela telaData={props.telasData.telas} />
             </main>

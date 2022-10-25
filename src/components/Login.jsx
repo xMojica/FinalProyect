@@ -1,7 +1,7 @@
 
 import wave from "../img/wave.png";
 import avatar from "../img/avatar.svg";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
 function Login() {
 
@@ -32,7 +32,12 @@ function Login() {
               </div>
             </div>
             <Link to="/olvideContraseña">Olvide mi contraseña</Link>
-            <Link to="/telas"><input type="button" className="btn" defaultValue="Ingresar" /></Link>
+            <div className="botones">
+              <Link to="/telas"><input type="button" className="btn" defaultValue="Ingresar" /></Link>
+              <Link to="/registrarse"><input type="button" className="btn" defaultValue="Registrarse" /></Link>
+            </div>
+            
+
           </form>
         </div>
       </div>
