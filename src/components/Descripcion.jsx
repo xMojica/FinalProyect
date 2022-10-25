@@ -1,6 +1,7 @@
 import tela from '../img/telas/1.jpg'
 import Header from './Header'
 import { Link } from 'react-router-dom'
+import Footer from './Footer'
 
 function Descripcion(props) {
 
@@ -26,6 +27,7 @@ function Descripcion(props) {
           <Link to="/"><input type="button" className="btn" defaultValue="Comprar"/></Link>
         </div>
       </main>
+      <Footer />
     </>
   )
 }

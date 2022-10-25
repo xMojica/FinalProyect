@@ -9,6 +9,7 @@ import "./Css/descripcion.css"
 import "./Css/login.css"
 import "./Css/header.css"
 import "./Css/main.css"
+import "./Css/footer.css"
 
 
 function App() {

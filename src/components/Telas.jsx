@@ -1,5 +1,6 @@
 import Header from "./Header";
 import Tela from "./Tela";
+import Footer from "./Footer";
 
 
 const Telas = (props) => {
@@ -9,6 +10,7 @@ const Telas = (props) => {
             <main id="main">
                 <Tela telaData={props.telasData.telas} />
             </main>
+            <Footer />
         </>
 
     )
